@@ -74,7 +74,7 @@ public class Client {
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your user name for group chat: ");
+        System.out.print("Please, enter your user name for group chat: ");
         String userName = scanner.nextLine();
         Socket socket = new Socket("localhost", 2008);
         Client client = new Client(socket, userName);
